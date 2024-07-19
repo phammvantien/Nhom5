@@ -1,0 +1,47 @@
+#form_on1{
+    background-color: #c4dde7;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+#form_on1 h1{
+    text-align: center;
+
+}
+.group_text{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.group_inp{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 5px 0;
+  
+}
+.mesage_text{
+    margin-left: 90px;
+    
+    
+}
+.textname{
+    margin:0 10px;
+    padding: 5px 0;
+    min-width: 120px;
+}
+.inp_mk{
+flex: 1;
+margin: 0 20px 0 0;
+padding: 5px 0;
+text-indent: 10px;
+}
+#inp_submid{
+    text-align: center;
+    margin: auto;
+}
+.invalid{
+    color:red;
+}

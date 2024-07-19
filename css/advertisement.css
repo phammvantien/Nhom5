@@ -1,0 +1,694 @@
+.head{
+    width: 100%;
+    background-color: var(--orange-color);
+    min-height: 50px;
+}
+.banner{
+    width: 100%;
+    background-color:var(--orange-color);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+justify-content: flex-start;
+}
+
+.banners li{
+    font-size: 18px;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 7px;
+}
+.banners li a{
+    font-size: 18px;
+    list-style-type: none;
+    display: inline-block;
+
+    color: var(--white-color);
+
+}
+
+.login{
+   
+    margin-right: 0;
+}
+@media (min-width:600px) {
+
+    .banner{
+        width: 100%;
+        max-height:65px ;
+        background-color:var(--orange-color);
+        color: var(--white-color);
+
+        display: flex;
+        flex-direction: row;
+    justify-content: space-between;
+    }
+    .banners li{
+        font-size: 20px;
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 15px;
+    
+    }
+    .login{
+   
+        margin-right: 25px;
+    }
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.quangcao{
+    width: 90%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+}
+.imgbannershop{
+    
+    width: 100%;
+    height: 500px;
+    background-image: url("/img/quangcao.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-position: top right 50%;
+    
+}
+.imgthongtin{
+    width: 100%;
+    height:auto;
+   
+}
+.imgg{
+    width: 500px;
+    height:400px;
+  
+}
+.imgg img{
+   
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thongtin{
+    width: 100%;
+    height:auto;
+  padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+.mss{
+    align-self: flex-end;
+    display: flex;
+    gap: 5px; /* Khoảng cách giữa label và span */
+    
+}
+.giaban{
+    color: var(--orange-color);
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.tabb-item td, .tabb-item th{
+    padding: 8px 8px;
+ 
+}
+.tabb-item-th{
+    padding: 10px 5px ;
+    font-size: 1.9rem;
+}
+.gia{
+    display: flex;
+    font-size: 25px;
+
+}
+
+.chitiet{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+   justify-content: center;
+
+}
+.chitiet button{
+    padding: 10px 25px 10px 25px;
+    margin: 10px;
+
+}
+.chitiet-datngay-text{
+    font-size: 1.5rem;
+}
+.coc{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.datngay{
+    background-color: rgb(148, 148, 238);
+    border: 1px none;
+    border-radius: 5px;
+}
+.xemttt{
+    font-size: 1.5rem;
+}
+.gop{
+    background-color: rgb(173, 173, 179);
+    border: 1px none;
+    border-radius: 5px;
+}
+.chitieth4{
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+   font-weight: 400;
+}
+.xemthem{
+
+    border: 1px none;
+    border-radius: 5px;
+    color: blue;
+ 
+}
+.dathang{
+    width: 80%;
+    min-height: 400px;
+    background-color: rgb(241, 245, 247);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.ds{
+    width: 48.5%;
+    min-height: 400px;
+    background-color: rgb(241, 245, 247);
+
+}
+
+.ds h3{
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ctrinh{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding: 10px; /* Thêm khoảng cách bên trong */
+    overflow: auto;
+    position: relative;
+  
+
+
+}
+.danhsach{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+}
+.ctrinh label{
+display: block;
+padding-top: 1px;
+font-size: 1.7rem;
+}
+.ctrinh h3{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 1.75rem;
+}
+.nutdat{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+
+}
+.nutxemttt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 10px 0px
+
+}
+.nutxemttt button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: blue;
+    border: 1px solid blue;
+    font-size: 1.6rem;
+    
+
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+.nutdat button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: blue;
+    border: 1px solid blue;
+    font-size: 1.6rem;
+    background-color: rgb(255, 255, 255);
+}
+.danhsach{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+   padding: 10px 0px 10px 0px; /* Thêm khoảng cách bên trong */
+    overflow: auto;
+}
+.hoten{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+  padding: 10px 0;
+    background-color: aliceblue;
+    margin-top: 3px;
+    list-style-type: none;
+    flex:3;
+}
+.name{
+    flex: 1;
+    padding:0 5px 0 15px ;
+
+}
+.danhsach .hoten label{
+    font-size: 1.7rem;
+}
+.number{
+    text-align: center;
+    flex: 1;
+}
+
+.trangthai{
+    text-align: center;
+    flex: 1;
+}
+.datngay:active {
+    background-color: rgb(205, 220, 234);
+}
+.gop:active {
+    background-color: rgb(205, 220, 234);
+}
+
+.xemthem:active {
+    background-color: rgb(205, 220, 234);
+}
+
+.nutdat button:active {
+    background-color: rgb(205, 220, 234);
+}
+.allbaner{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.footer-container-cskh-list{
+    display: none;
+}
+.chinhsach{
+    width: 80%;
+    min-height: 25px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex: 3;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    
+}
+.baohanh{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid;
+   
+
+}
+.muahang{
+    text-align: center;
+    flex:1;
+    border-right: 1px solid ;
+    
+}
+.khieunai{
+    flex:1;
+    text-align: center;
+    
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(241, 240, 237);
+
+}
+.footerall{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 2;
+    margin: auto;
+}
+.fotter1{
+    flex:1;
+}
+.fotter1{
+    flex:1;
+}
+.footer-container-contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex: 4 1 0%;
+    margin: 20px 10px;
+}
+.banners{
+    padding:10px
+}
+@media (min-width:600px) {
+   
+   .footerall{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 2;
+    margin: auto;
+} 
+
+}
+
+
+@media only screen and  (max-width: 46.1875em){
+    
+ 
+  /* mobile footer  */
+  .pagination-column-10{
+    display: none;
+  }
+  .footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 6;
+
+}
+.footer-container-contact{
+   display: none;
+}
+.footer-container-cskh{
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 20px 10px 20px 4px;
+}
+.footer-container-cskh h3{
+    font-size: 1rem;
+}
+.footer-container-cskh{
+    flex: 2;
+}
+
+.cskh-list {
+   
+    margin:0;
+    padding:0;
+
+}
+.cskh-list li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.cskh-list li a{
+    text-decoration: none;
+    font-size: 1rem;
+ 
+    color: var( --color-text-footer);
+
+}
+
+
+
+
+
+
+
+.ifnomation-policy-item{
+    display: inline-block;
+    margin: 10px 5px;
+list-style-type: none;
+}
+.ifnomation-policy-item + .ifnomation-policy-item::before{
+    
+  
+  
+ 
+    display: none;
+   
+}
+.ifnomation-policy-item a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--color-text-footer);
+
+}
+.infomation-contact h3{
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+.infomation-contact{
+    margin-bottom: 10px;
+    color: var(--color-text-footer);
+}
+.infomation-contact h4{
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: var(--color-text-footer);
+}
+.infomation-contact p{
+    font-size: 1.2rem;
+    margin: 3px 0;
+    color: var(--color-text-footer);
+}
+.mouse-effect-footer:hover{
+    color: var(--orange-color);
+}
+.footer-container-cskh-list{
+    margin: 0 10px;
+    display: block;
+}
+.footer-container-cskh-list h3{
+    margin: 0;
+}
+.footer-container-cskhs h3{
+    margin: 0;
+}
+.footer-container-cskhs{
+    display: flex;
+    flex-direction: column;
+   
+        margin: 0 10px;
+       
+
+}
+.ifnomation-policy{
+    padding: 5px 0;
+    margin: 0;
+}
+
+  
+
+.ifnomation-policy-item{
+    margin: 1px 0;
+}
+
+.header-search-history{
+    width: 200px; 
+    height: auto;
+    max-height: 300px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    box-shadow: 0 1px 9px var(--lightblack-color )  ;
+ display: none;
+ margin-top: 2px;
+
+}
+.header-search-hs-title{
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+.header-search-history-list a{
+    font-size: 1.1rem;
+    padding: 2px 0;
+    margin: 0;
+}
+
+
+.contact-internet{
+    display: none;
+}
+.contact-application{
+    display: none;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+
+
+}
+.imgbannershop{
+    
+    width: 100%;
+    height: 250px;
+    background-image: url("/img/quangcao.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-position: top right 50%;
+    
+}
+.banners li a {
+    font-size: 1.3rem;
+}
+.banners li{
+    margin-right: 10px;
+}
+.banners {
+   margin-left: 20px;
+}
+
+.quangcao{
+    display: flex;
+    flex-direction: column;
+
+}
+.thongtin{
+    margin-top: 250px;
+}
+
+.chitiet{
+    display: flex;
+    flex-direction: column;
+    margin-top: 78px;
+    margin-bottom: 75px;
+}
+.imgg{
+   width: 100%;
+    height:50%;
+   
+  
+}
+.imgg img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: -104px;
+    margin-bottom: -230px;
+}
+.quangcao{
+    width: 90%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.thongtin h2{
+    font-size: 1.6rem;
+}
+.mss{
+    display: none;
+}
+.tabb-item{
+    font-size: 1.2rem;
+}
+
+.dathang{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 350px;
+}
+.ds{
+    width: 100%;
+    margin: 0;
+}
+.ds h3{
+    font-size: 1.5rem;
+}
+.name{
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+}
+/* tablet  */
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em) {
+    .imgg img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 75px;
+    }
+    .imgbannershop{
+    
+        width: 100%;
+        height: 300px;
+        background-image: url("/img/quangcao.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+       background-position: top right 50%;
+        
+    }
+.quangcao{
+    display: flex;
+    flex-direction: column;
+
+}
+.thongtin{
+    margin-top: 250px;
+}
+.dathang{
+   
+    padding: 0;
+    width: 730px;
+}
+}

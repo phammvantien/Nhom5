@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/onjs/onform.css">
+</head>
+<body>
+    <form method="post" id="form_on1">
+        <h1 >Đăng ký thành viên</h1>
+        <div class="group_text">
+            <div class="group_inp">
+                <label for="" class="textname"> Tài khoản</label>
+                <input type="text" name="taikhoan" rules="required" class="inp_mk" id="taikhoan" placeholder="Vui lòng không bỏ trống trường này ">
+               
+            </div>
+           <span class="mesage_text"></span>
+
+        </div>
+        <div class="group_text">
+            <div class="group_inp">
+                <label for="" class="textname"> Mật khẩu</label>
+                <input type="text" name="matkhau"  rules="required|min" class="inp_mk" id="matkhau" placeholder="Vui lòng không bỏ trống trường này ">
+               
+            </div>
+           <span class="mesage_text"></span>
+
+        </div>
+        <!-- <div class="group_text">
+            <div class="group_inp">
+                <label for="" class="textname">Nhập lại Mật khẩu</label>
+                <input type="text" name="nhaplai"  class="inp_mk" id="matkhauagain" placeholder="Vui lòng không bỏ trống trường này ">
+               
+            </div>
+           <span class="mesage_text"></span>
+
+        </div> -->
+        <div class="group_text">
+            <div class="group_inp">
+                <label for="" class="textname"> Email</label>
+                <input type="text" name="email"rules="required|email" class="inp_mk" id="email" placeholder="Vui lòng không bỏ trống trường này ">
+               
+            </div>
+           <span class="mesage_text"></span>
+
+        </div>
+      <!--   <div class="group_text">
+            <div class="group_inp">
+                <label for="" class="textname"> SDT</label>
+                <input type="text" name="sdt" class="inp_mk" id="sodienthoai" placeholder="Vui lòng không bỏ trống trường này ">
+               
+            </div>
+           <span class="mesage_text"></span>
+
+        </div>
+        <div class="group_text">
+            <div class="group_inp">
+                <label for="" class="textname"> Mô tả </label>
+                <input type="text" name="mota" class="inp_mk" id="mota" placeholder="Vui lòng không bỏ trống trường này ">
+               
+            </div>
+           <span class="mesage_text"></span>
+
+        </div> -->
+      
+<input type="submit" id="inp_submid" value="Đăng ký ">
+
+
+    </form>
+    <script src="/onjs/onform.js">
+
+    </script>
+    <script>
+     
+  validator('#form_on1',{
+    onsubmit: function(data){
+    console.log(data);
+}
+  });
+//   {
+    // onsubmit:function(data){
+    //     console.log(data);
+
+
+    // }}
+    
+
+  
+  
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

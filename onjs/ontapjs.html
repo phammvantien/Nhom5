@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/base.css">
+</head>
+<body>
+    <style>
+        .invalid{
+            color: red;
+        }
+    </style>
+     <div class="auth-from"> 
+        <form action="" method="post" id="form1">
+        <div class="auth-from-header">
+            <h3 class="auth-from-heading">Đăng nhập </h3>
+            <span class="auth-from__width-btn"> <a href="">Đăng Ký</a></span>
+        </div>
+        <div class="auth-from__from ">
+            <div class="auth-from__group " style="display: flex; flex-direction: column;">
+                <input type="text" id="taikhoan" class="auth-from__input" placeholder="Nhập email"> 
+                <span class="span-mess" style="text-indent: 15px; font-size: 1.4rem; margin: 5px 0 0 0 ;"></span>
+            </div>
+            <div class="auth-from__group"   style="display: flex; flex-direction: column;">
+                <input type="password" id ="matkhau" class="auth-from__input" placeholder="Nhập mật khẩu">
+                <span class="span-mess" style="text-indent: 15px; font-size: 1.4rem; margin: 5px 0 0 0 ;"></span>
+
+            </div>
+        </div>
+        <div class="auth-from__links">
+            <a href="" class="auth-from__help-link auth-from__help-up">Quên mật khẩu</a>
+            <span class="auth-from__nc"> | </span>
+            <a href="" class="auth-from__help"> Cần trợ giúp?</a>
+
+        </div>
+        <div class="auth-from-controls">
+            <button class="btn"> TRỞ LẠI </button>  
+            <input class="btn btn--primary" type="submit" value="Đăng nhập" >
+
+        </div>
+        <div class="auth-from-socials">
+            <a href="" class="btn btn--with-facebook">
+                <i class="header-navbar-icons fa-brands fa-square-facebook"></i>
+                <label class="btn--with-mxh-text" > Register with Facebook</label>
+
+            </a>
+            <a href="" class="btn btn--with-gg">
+                <i class="header-navbar-icons fa-brands fa-google header-navbar-icons"></i>
+            
+                <label class="btn--with-mxh-text" > Login with Google</label>
+            </a>
+        </div>
+    </form>
+              
+            </div> 
+            <script src="/onjs/ontapjs.js"></script>
+            <script>
+                // mong mon cua chung gta khi su dung thu vien 
+             validator({
+                form:'#form1',// id cua form
+                errorselector:'.span-mess',
+                rules:[
+                    // o nhap tai khoan
+                    validator.isrequi_tk('#taikhoan'),
+                     // o nhap mat khau
+                    validator.isrequi_mk('#matkhau'),
+                    
+                ]
+             });
+
+            </script>
+          
+</body>
+</html>
